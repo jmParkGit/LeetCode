@@ -1,5 +1,3 @@
-#include <stdlib.h>
-
 class Solution {
 private:
     string makeStr(int a, int b) {

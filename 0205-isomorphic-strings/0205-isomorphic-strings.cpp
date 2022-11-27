@@ -1,8 +1,8 @@
 class Solution {
 private:
     const static int MAX_INDEX_LENGTH=256;
-    int sIndex[MAX_INDEX_LENGTH] = {-1,};
-    int tIndex[MAX_INDEX_LENGTH] = {-1,};
+    int sIndex[MAX_INDEX_LENGTH];
+    int tIndex[MAX_INDEX_LENGTH];
 
     vector<int> changeToIndex(string s, int* arrIndex) {
         vector<int> ret;

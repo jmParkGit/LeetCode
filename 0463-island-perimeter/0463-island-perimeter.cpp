@@ -27,17 +27,18 @@ public:
                     }
                     if(x_length == 1) {
                         middleVal += 1;
-                    }
-                        
+                    }       
                 }
             }
+            
             int val =  (currentlandCnt*2) - previousConnectdCnt*2;
             if(currentlandCnt) {
                 val += (middleVal);
             }
-            //cout << "y:" <<y <<" val:"<<val <<" currentlandCnt:"<<currentlandCnt <<" previousConnectdCnt:"<<previousConnectdCnt <<endl;
+
             ret += val;
         }
+        
         return ret;   
     }
 };
